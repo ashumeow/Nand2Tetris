@@ -1,0 +1,17 @@
+/**
+ * De-multiplexer.
+ * {a,b} = {in,0} if sel == 0
+ *         {0,in} if sel == 1
+ */
+
+CHIP DMux {
+// chip interface
+    IN in, sel;
+    OUT a, b;
+
+    PARTS:
+    // chip implementation
+    Not(in = sel, out = nots);
+    And(a = in, b = nots, out = a);
+    And(a = in, b = sel, out = b);
+}
