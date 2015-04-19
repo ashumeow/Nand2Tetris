@@ -1,0 +1,13 @@
+/**
+ * Not gate: out = not in
+ */
+
+CHIP Not {
+// chip interface
+    IN in;
+    OUT out;
+
+    PARTS:
+    // chip implementation
+    Nand(a = in, b = in, out = out);
+}
