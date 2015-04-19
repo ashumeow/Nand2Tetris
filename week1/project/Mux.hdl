@@ -1,0 +1,16 @@
+/**
+ * Multiplexer. If sel == 1 then out = b else out = a.
+ */
+
+CHIP Mux {
+// chip interface
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    // chip implementation
+    Not(in = sel, out = nots);
+    And(a = a, b = nots, out = outa);
+    And(a = b, b = sel, out = outb);
+    Or(a = outa, b = outb, out = out);
+}
