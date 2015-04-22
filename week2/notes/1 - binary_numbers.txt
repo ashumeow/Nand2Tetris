@@ -1,0 +1,37 @@
+Binary numbers can be represented in the form of 0s and 1s.
+1 bit creates 2 possibilities such as {0, 1}
+2 bits creates 4 possibilities such as {00, 01, 10, 11}
+3 bits creates 8 possibilities,
+4 bits = 16 possibilities,
+5 bits = 32 possibilities,
+6 bits = 64 possibilities,
+7 bits = 128 possibilities,
+8 bits = 256 possibilities,
+.
+.
+N bits = 2^N possibilities
+
+Geek-ed resources:-
+[1] Stackoverflow
+(a) http://stackoverflow.com/questions/5072715/calculating-the-total-number-of-possibilities-in-binary
+(b) http://cs.stackexchange.com/questions/19568/how-can-one-byte-hold-256-possibilities
+[2] Princeton university
+(a) http://www.cs.princeton.edu/courses/archive/fall09/cos109/03repres.pdf
+[3] Colors <3
+(a) http://www.color-management-guide.com/computer-science-and-colors.html
+
+Binary to Decimal
+101 => 1X2^2+0X2^1+1X2^0 => 5
+Determining K bits => (2^K)-1
+
+Decimal to Binary
+87 => divide by 2
+87 1
+43 1
+21 1
+10 0
+5 1
+2 0
+1 1
+0 0 
+Write answer in upside => 01010111
