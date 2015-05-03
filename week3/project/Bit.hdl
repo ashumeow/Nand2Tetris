@@ -1,0 +1,16 @@
+/**
+ * 1-bit register:
+ * If load[t] == 1 then out[t+1] = in[t]
+ *                 else out does not change (out[t+1] = out[t])
+ */
+
+CHIP Bit {
+// chip interface
+    IN in, load;
+    OUT out;
+
+    PARTS:
+    // chip implementation
+    Mux(a = obefore, b = in, sel = load, out = data);
+    DFF(in = data, out = out, out = obefore);
+}
