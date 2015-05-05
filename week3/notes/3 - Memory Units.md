@@ -25,3 +25,11 @@ Read-Logic for register: <br>
 Write-Logic for register: <br>
 ![](http://geekresearchlab.net/coursera/n2t/multi-write.jpg)
 <br><br>
+RAM Unit: <br>
+![](http://geekresearchlab.net/coursera/n2t/multi-ram-unit.jpg)
+<br><br>
+Quick question: <br>
+![](http://geekresearchlab.net/coursera/n2t/multi-register-question.jpg)
+<br><br>
+RAM16 family: <br>
+![](http://geekresearchlab.net/coursera/n2t/multi-ram16.jpg)
