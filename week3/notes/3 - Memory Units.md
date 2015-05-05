@@ -33,3 +33,7 @@ Quick question: <br>
 <br><br>
 RAM16 family: <br>
 ![](http://geekresearchlab.net/coursera/n2t/multi-ram16.jpg)
+```
+Also...
+Hands-on demo shown on how-to use in-built chips such as register and RAM8 through clock cycles.
+```
